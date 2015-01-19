@@ -1,14 +1,13 @@
-/* Still need to use 	
-						"Opacity"
-						
-*/
+/* Keila Bowers DWS1 1401 Section 01 */
 
+
+				/* ---------- MAIN STYLES ---------- */
+				
 @font-face{
 	font-family: 'Oswald', sans-serif;
 	src: url('http://fonts.googleapis.com/css?family=Oswald');
 	}
 
-	
 body {
 	background-color: #046380; 
 	color: #023C4D; 
@@ -23,12 +22,15 @@ body {
 	padding: 20px;
 	border: 4px double #000;
 	border-radius: 5px;  
-	background-color: #EFECCA;		
+	background-color: #EFECCA;	
 	-moz-box-shadow: 5px 5px 5px #023C4D;
 	-webkit-box-shadow: 5px 5px 5px #023C4D; 
 	box-shadow: 5px 5px 5px #023C4D;
 	}
 
+
+				/* ---------- LAYOUT ---------- */
+				
 h1 {
 	color: rgb(141,18,54) ;
 	font-family: 'Oswald', sans-serif;
@@ -38,7 +40,7 @@ h1 {
 	}
 
 h2, h3  {
-	color: rgb(141,18,54);
+	color: rgb(141,18,54) ;
 	font-family: 'Oswald', sans-serif;
 	line-height: 1.5em;
 	}
@@ -47,21 +49,11 @@ strong, em {
 	color: rgb(6,158,205);
 	}
 
-a:link {color: #8D1236 ;text-decoration: none ;} 
-a:visited {color: #046380 ;text-decoration: none ;} 
-a:hover {color: #BF506E;text-decoration: none ;} 
-a:active {color: #BF5E5E ;text-decoration: none ;} 
-
-li {
-	list-style-type: disc; 
-	margin: 10px auto ; 
-	}
-	
-
 img {
 	border-radius: 5px ; 
 	height: auto ; 
 	width: auto; 
+	
 	}
 
 figure {
@@ -81,4 +73,19 @@ figcaption {
 	text-align: left ; 
 	width: 435px ; 
 	}
+	
+			/* ---------- NAVIGATION ---------- */
+
+a:link {color: #8D1236 ;text-decoration: none ;} 
+a:visited {color: #046380 ;text-decoration: none ;} 
+a:hover {color: #BF506E;text-decoration: none ;} 
+a:active {color: #BF5E5E ;text-decoration: none ;} 
+
+li {
+	list-style-type: disc; 
+	margin: 10px auto ; 
+	}
+	
+
+
 
