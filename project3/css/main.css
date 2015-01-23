@@ -1,0 +1,115 @@
+/* Keila Bowers DWS1 1401 Section 01 */
+
+
+				/* ---------- MAIN STYLES ---------- */
+				
+@font-face{
+	font-family: 'Oswald', sans-serif;
+	src: url('http://fonts.googleapis.com/css?family=Oswald');
+	}
+
+body {
+	background: #046380 url(../images/pattern_156.gif) repeat left top;
+	color: #023C4D; 
+	margin: 0px ;
+	padding: 0px ; 
+	}
+
+#page {
+	width: 940px;
+	height: auto;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	border: 4px double #000;
+	border-radius: 5px;  
+	background-color: #EFECCA;	
+	-moz-box-shadow: 5px 5px 5px #023C4D;
+	-webkit-box-shadow: 5px 5px 5px #023C4D; 
+	box-shadow: 5px 5px 5px #023C4D;
+	overflow: auto;
+	}
+
+
+				/* ---------- LAYOUT ---------- */
+				
+h1 {
+	color: rgb(141,18,54) ;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 2px 2px #BCBA9F;
+	margin: auto;
+	text-align: center;
+	}
+
+h2, h3  {
+	color: rgb(141,18,54) ;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.5em;
+	}
+	
+strong, em {
+	color: rgb(6,158,205);
+	}
+
+img {
+	border-radius: 5px ; 
+	height: auto ; 
+	width: auto; 
+	
+	}
+
+figure {
+	margin: 25px auto ; 
+	}
+
+figure img {
+	display: inline ; 
+	vertical-align: middle ; 
+	}
+	
+/*
+figcaption {
+	display: inline-block ; 
+	font-family: "Helvetica Neue", "Helvetica", "Source Sans Pro", "Arial", sans-serif ; 
+	font-weight: 200 ; 
+	margin-left: 35px ; 
+	text-align: left ; 
+	width: 435px ; 
+	}
+	
+	*/
+	
+			/* ---------- NAVIGATION ---------- */
+
+a:link {color: #8D1236 ;text-decoration: none ;} 
+a:visited {color: #046380 ;text-decoration: none ;} 
+a:hover {color: #BF506E;text-decoration: none ;} 
+a:active {color: #BF5E5E ;text-decoration: none ;} 
+
+li {
+	list-style-type: disc; 
+	margin: 10px auto ; 
+	}
+
+	
+#article {
+	width: 70%;
+	float: left;
+	padding: 2% 1%;
+	margin: 0px;
+	;
+ 
+	}
+	
+/* #gallery {
+	width: 20%;
+	float: left;
+	padding: 2% 1%;
+	margin: 0px;
+	overflow: auto;
+	}
+	*/
+	
+	
+
+
+
