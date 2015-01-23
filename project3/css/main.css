@@ -108,6 +108,13 @@ li {
 	padding: 2% 1%;
 	margin: 0px;
 	overflow: auto;
+background: linear-gradient(to right, rgba(4,99,128,1) 0%,rgba(81,147,165,1) 27%,rgba(81,147,165,1) 67%,rgba(4,99,128,1) 100%);
+	border: 4px double #000;
+	border-radius: 5px;  
+	
+	-moz-box-shadow: 5px 5px 5px #D4D6B6;
+	-webkit-box-shadow: 2px 2px 2px #D4D6B6; 
+	box-shadow: 5px 5px 5px #D4D6B6;
 	}
 
 #footer{
