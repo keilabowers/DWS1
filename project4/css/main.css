@@ -15,7 +15,7 @@ body {
 	padding: 0px ; 
 	}
 
-#page {
+.page {
 	width: 60%;
 	font-size: 1.000em;
 	height: auto;
@@ -81,16 +81,16 @@ figcaption {
 	padding: 5% 1% ;
 	}
 	
-.article {
+article {
 	width: 70%;
 	float: left;
 	padding: 2% 3%;
 	margin: 0px;
 	}
 	
-.galleryclass {
+aside {
 	width: 20%;
-	float: left;
+	float: right;
 	padding: 2% 1%;
 	margin: 0px;
 	overflow: auto;
@@ -102,8 +102,8 @@ figcaption {
 	box-shadow: 5px 5px 5px #D4D6B6;
 	}
 
-#footer{
-	clear: left;
+footer {
+	clear: both ;
 	}	
 	
 	
