@@ -86,35 +86,35 @@
 			<p>When risk is measured by deaths per passenger kilometer, air travel is approximately 10 times safer than travel by bus or rail. However, when using the deaths per journey statistic, air travel is significantly more dangerous than car, rail, or bus travel. Air travel insurance is relatively expensive for this reason- insurers generally use the deaths per journey statistic. There is a significant difference between the safety of airliners and that of smaller private planes, with the per-mile statistic indicating that airliners are 8.3 times safer than smaller planes.</p>
 			
 			<table>
-				<tr>
+				<tr id="years">
 					<th></th>
 					<th scope="col">1991</th>
 					<th scope="col">1992</th>
 					<th scope="col">1993</th>
 					<th scope="col">1994</th>
 				</tr>
-				<tr>	
+				<tr id="accidents">	
 					<th scope="row">Total fixed-wing general aviation accidents</th>
 					<td>1,897</td>
 					<td>1,837</td>
 					<td>1,808</td>
 					<td>1,741</td>
 				</tr>
-				<tr>	
+				<tr id="fatal">	
 					<th scope="row">Fatal fixed-wing general aviation accidents</th>
 					<td>394</td>
 					<td>407</td>
 					<td>360</td>
 					<td>354</td>
 				</tr>
-				<tr>	
+				<tr id="fatalities">	
 					<th scope="row">Total fixed-wing general aviation fatalities</th>
 					<td>724</td>
 					<td>798</td>
 					<td>652</td>
 					<td>641</td>
 				</tr>
-				<tr>	
+				<tr id="hours">	
 					<th scope="row">Estimated general aviation flight hours</th>
 					<td>27.2 M</td>
 					<td>24.8 M</td>
@@ -153,35 +153,56 @@
 		</figure>	
 	</aside>	
 
+	<article>
+		<h2 id="contact">Contact Us:</h2>
+	</article>
+				
 	<div id="form">
+	
 		<form 
-			action="" 
-			method="" >
+			action="mailto:kbowers1278@gmail.com" 
+			method="get" >
+	
 			
-			<label for="name">Full Name</label>
+			<div class="form">
+			<div class="contents">
+			<label class="title" for="name">Full Name</label>
 				<input type="text" name="name" maxlenght="30" id="name" required="required" placeholder="Howard Stark"/>
+		</div>
 			
-			<label for="email">Email Address</label>	
+			<div class="contents">
+			<label class="title" for="email">Email Address</label>	
 				<input type="email" name="Email" id="email" required="required" placeholder="email@email.com"/>
+			</div>
 			
-			<label for="rating">How would you rate our website?</label>
-				<input type="radio" name="rating" value="Pretty Awesome" checked="checked" id="awesome"/><label for="awesome">Pretty Awesome</label>
-				<input type="radio" name="rating" value="Okayish" id="okay"/><label for="okay">Okay-ish</label>
-				<input type="radio" name="rating" value="Poor" id="poor"/><label for="poor">Poor</label>
-					
-			<label for="found">Where did you find us?</label>
+			<div class="contents">
+			<label class="title" for="rating">How would you rate our website?</label>
+				<input type="radio" name="rating" value="Pretty Awesome" checked="checked" id="awesome"/><label class="radio" for="awesome">Pretty Awesome</label>
+				<input type="radio" name="rating" value="Okayish" id="okay"/><label class="radio" for="okay">Okay-ish</label>
+				<input type="radio" name="rating" value="Poor" id="poor"/><label class="radio" for="poor">Poor</label>
+			</div>
+			
+			<div class="contents">
+			<label class="title" for="found">Where did you find us?</label>
 				<select name="found" id="found">
 					<option value="select one" selected="selected">Select One</option>
 					<option value="google search">Google Search</option>
 					<option value="other website">Other Website</option>
 				</select>
-				
-			<label for="message">Send us a message</label>			
+			</div>	
+			
+			<div class="contents">
+			<label class="title" for="message">Send us a message</label>			
 				<textarea name="comments" id="message" placeholder="Enter your message...">Enter your message...
 				</textarea>
+			</div>
 			
-			<input type="submit" value="Send" />
+			<div class="submit">
+			<input type="submit" value="Send" id="submit" />
+			</div>
+		</div>
 		</form>
+		
 	</div>		
 		
 	<footer>
