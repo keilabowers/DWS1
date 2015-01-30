@@ -159,10 +159,10 @@
 			method="" >
 			
 			<label for="name">Full Name</label>
-				<input type="text" name="name" maxlenght="30" id="name" />
+				<input type="text" name="name" maxlenght="30" id="name" required="required" placeholder="Howard Stark"/>
 			
 			<label for="email">Email Address</label>	
-				<input type="email" name="Email" id="email"/>
+				<input type="email" name="Email" id="email" required="required" placeholder="email@email.com"/>
 			
 			<label for="rating">How would you rate our website?</label>
 				<input type="radio" name="rating" value="Pretty Awesome" checked="checked" id="awesome"/><label for="awesome">Pretty Awesome</label>
@@ -177,8 +177,7 @@
 				</select>
 				
 			<label for="message">Send us a message</label>			
-				<textarea name="comments" id="message">
-					Enter your message...
+				<textarea name="comments" id="message" placeholder="Enter your message...">Enter your message...
 				</textarea>
 			
 			<input type="submit" value="Send" />
